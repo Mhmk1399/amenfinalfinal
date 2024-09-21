@@ -8,6 +8,7 @@ import LayerSelection from "../components/layer-selection";
 import ImageButton from "../components/image-button"
 import data from "@/lib/data";
 
+
 type Selection =
   | "Casual T-shirt"
   | "Button-up Shirt"
@@ -93,7 +94,7 @@ export default function Home() {
 // Shirt selection step
 <ShirtSelection
   onSelect={function (
-    selection: "Casual T-shirt" | "Button-up Shirt" | "Graphic Tee"
+   
   ): void {
     throw new Error("Function not implemented.");
   }}
@@ -102,7 +103,7 @@ export default function Home() {
 // Pants selection step
 
 <PantsSelection
-  onSelect={function (selection: "Jeans" | "Chinos" | "Joggers"): void {
+  onSelect={function (): void {
     throw new Error("Function not implemented.");
   }}
 />;
@@ -110,7 +111,7 @@ export default function Home() {
 // Shoes selection step
 
 <ShoesSelection
-  onSelect={function (selection: "Sneakers" | "Loafers" | "Boots"): void {
+  onSelect={function (): void {
     throw new Error("Function not implemented.");
   }}
 />;
@@ -118,7 +119,7 @@ export default function Home() {
 // Layer selection step
 
 <LayerSelection
-  onSelect={function (selection: "Hoodie" | "Blazer" | "Denim Jacket"): void {
+  onSelect={function (): void {
     throw new Error("Function not implemented.");
   }}
 />;
@@ -144,7 +145,7 @@ const getCelebrity = (mbtiType: string): string => {
   // Usage in your component
   function CelebrityResult({
     mbtiType,
-    selections,
+    
   }: {
     mbtiType: string;
     selections: Selections;
@@ -167,7 +168,7 @@ const getCelebrity = (mbtiType: string): string => {
       
         {/* Celebrity Name */}
         <span className="text-xl font-bold hover:scale-110 transition-transform duration-700 ease-in-out my-2 border-double border-4 rounded-full px-5 py-3 bg-white text-gray-900 shadow-lg">
-          "{celebrity}"
+          `{celebrity}`
         </span>
       
         {/* Description */}
