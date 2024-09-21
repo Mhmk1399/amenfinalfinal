@@ -1,9 +1,8 @@
 import ImageButton from "./image-button";
+
 type Selection = "Casual T-shirt" | "Button-up Shirt" | "Graphic Tee";
 
-type Selections = {
-  shirt: Selection | null;
-};
+
 function ShirtSelection({
   onSelect,
 }: {
