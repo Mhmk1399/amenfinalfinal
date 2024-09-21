@@ -1,4 +1,3 @@
-import Image from "next/image";
 import ImageButton from "./image-button";
 type Selection = "Casual T-shirt" | "Button-up Shirt" | "Graphic Tee";
 
