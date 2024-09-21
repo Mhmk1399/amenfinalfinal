@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import ImageButton from "./image-button";
 
 type Selection = "Jeans" | "Chinos" | "Joggers";
