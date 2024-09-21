@@ -7,7 +7,6 @@ import PantsSelection from "../components/pants-selection";
 import LayerSelection from "../components/layer-selection";
 import ImageButton from "../components/image-button"
 import data from "@/lib/data";
-import Image from "next/image";
 
 type Selection =
   | "Casual T-shirt"
