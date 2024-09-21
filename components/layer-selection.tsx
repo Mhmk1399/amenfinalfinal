@@ -1,11 +1,8 @@
-
 import ImageButton from "./image-button";
 
 type Selection = "Hoodie" | "Blazer" | "Denim Jacket";
 
-type Selections = {
-  layer: Selection | null;
-};
+
 function LayerSelection({
   onSelect,
 }: {
