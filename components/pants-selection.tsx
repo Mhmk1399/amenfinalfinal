@@ -1,11 +1,8 @@
-
 import ImageButton from "./image-button";
 
 type Selection = "Jeans" | "Chinos" | "Joggers";
 
-type Selections = {
-  pants: Selection | null;
-};
+
 function PantsSelection({
   onSelect,
 }: {
